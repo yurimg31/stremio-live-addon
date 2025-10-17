@@ -5,7 +5,16 @@ module.exports = [
     id: 'live:espn',
     name: 'ESPN (ao vivo)',
     logo: 'https://embedcanais.com/images/espn.png',
-    url: 'http://127.0.0.1:8080/hls?url=' + encodeURIComponent('https://embedcanais.canaistv.site/espn/index.m3u8')
+    //url: 'http://127.0.0.1:8080/hls?url=' + encodeURIComponent('https://embedcanais.canaistv.site/espn/index.m3u8')
+    url: PROXY + encodeURIComponent('https://embedcanais.canaistv.site/espn/index.m3u8')
+  },
+
+  // adicione um canal de teste público (funciona sempre)
+  {
+    id: 'live:shaka',
+    name: 'Shaka Demo (teste público)',
+    logo: 'https://storage.googleapis.com/shaka-demo-assets/77.jpg',
+    url: PROXY + encodeURIComponent('https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8')
   },
 
    {
