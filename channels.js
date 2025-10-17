@@ -2,13 +2,7 @@ const PROXY = 'https://stremio-proxy-0ws0.onrender.com/hls?url=';
 
 module.exports = [
   
-  {
-    id: 'live:band',
-    name: 'Band (ao vivo)',
-    logo: 'https://multicanaishd.pro/wp-content/uploads/2024/10/Band-500x500.png',
-    url: PROXY + encodeURIComponent('https://outbound-proxy-us-east1-0-glob-usercontent-client-id-3323212402.googleapis.com.pt/docs/band/__index.m3u8?sv=24&nu3zAQc9HC3GbwJq=1760710042-RVw7%2BBOTUQmz4sJ0Bbd39nyyZHfcTTgBz1CuYV7Duko%3D')
-  },  
-  
+    
   {
     id: 'live:bandsports',
     name: 'Band Sports (ao vivo)',
