@@ -1,4 +1,4 @@
-const PROXY = 'https://xxxxx.trycloudflare.com/hls?url=';
+const PROXY = 'https://stremio.neyfadas.site/hls?url=';
 
 module.exports = [
   
