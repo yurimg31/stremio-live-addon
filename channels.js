@@ -1,9 +1,18 @@
+const PROXY = 'https://stremio-proxy-0ws0.onrender.com/hls?url=';
+
 module.exports = [
   {
     id: 'live:espn',
     name: 'ESPN (ao vivo)',
     logo: 'https://embedcanais.com/images/espn.png',
     url: 'http://127.0.0.1:8080/hls?url=' + encodeURIComponent('https://embedcanais.canaistv.site/espn/index.m3u8')
+  },
+
+   {
+    id: 'live:cazetv',
+    name: 'Caze TV (ao vivo)',
+    logo: 'https://embedcanais.com/images/cazetv.png',
+    url: 'http://127.0.0.1:8080/hls?url=' + encodeURIComponent('https://embedcanais.canaistv.site/cazetv/index.m3u8')
   },
 
   {
