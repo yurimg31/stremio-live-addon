@@ -7,8 +7,8 @@ const app = express();
 const PORT = process.env.PORT || process.env.PROXY_PORT || 8080;
 
 // Ajuste a origem do referer de acordo com o site que gerou o m3u8
-// Você pode mudar no Render (Settings > Environment): REFERER_BASE=https://redecanaistv.ee/
-const REFERER_BASE = process.env.REFERER_BASE || 'https://redecanaistv.ee/';
+// Você pode mudar no Render (Settings > Environment): REFERER_BASE=https://futemax.wales/
+const REFERER_BASE = process.env.REFERER_BASE || 'https://futemax.wales/';
 
 app.use((_, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
