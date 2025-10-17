@@ -12,7 +12,7 @@ module.exports = [
     id: 'live:espnalternativo',
     name: 'ESPN (ao vivo)',
     logo: 'https://embedcanais.com/images/espn.png',
-    url: 'http://127.0.0.1:8080/hls?url=' + encodeURIComponent('https://outbound-proxy-us-east1-0-glob-usercontent-client-id-3091170514.googleapis.com.pt/docs/espn/__index.m3u8?sv=158&nu3zAQc9HC3GbwJq=1760696602-38MAhFiAkZ2AxRhIBNoEcu1vFeEdxpo%2FeseresJdejM%3D')
+    url: 'http://127.0.0.1:8080/hls?url=' + encodeURIComponent('https://outbound-proxy-us-east1-0-glob-usercontent-client-id-3091170514.googleapis.com.pt/docs/espn/__index.m3u8')
   },
 
    {
