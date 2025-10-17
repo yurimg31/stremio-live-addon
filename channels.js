@@ -13,8 +13,8 @@ module.exports = [
    {
     id: 'live:bandsports',
     name: 'Band Sports (ao vivo)',
-    logo: 'https://embedcanais.canaistv.site/bandsports/index.m3u8',
-    url: PROXY + encodeURIComponent('https://embedcanais.canaistv.site/bandsp/index.m3u8')
+    logo: 'https://i.imgur.com/d2V7d39.jpeg',
+    url: PROXY + encodeURIComponent('https://embedcanais.canaistv.site/bandsports/index.m3u8')
   },
   
   {
