@@ -2,18 +2,19 @@ const PROXY = 'https://stremio-proxy-0ws0.onrender.com/hls?url=';
 
 module.exports = [
   {
+    id: 'live:espnteste',
+    name: 'ESPN 2 (teste)',
+    logo: 'https://i.ibb.co/7Q6m4sW/tv.png',
+    url: PROXY + encodeURIComponent('https://outbound-proxy-us-east1-0-glob-usercontent-client-id-0551243091.googleapis.com.pt/docs/espn2/__index.m3u8?sv=95&nu3zAQc9HC3GbwJq=1760697529-3guOPqGUk52jUv1dptYefgeNeqUQjN0kk6CXPLb25LA%3D')
+  },
+
+  {
     id: 'live:espn',
     name: 'ESPN (ao vivo)',
     logo: 'https://embedcanais.com/images/espn.png',
     url: 'http://127.0.0.1:8080/hls?url=' + encodeURIComponent('https://embedcanais.canaistv.site/espn/index.m3u8')
   },
 
-  {
-    id: 'live:espnalternativo',
-    name: 'ESPN (ao vivo)',
-    logo: 'https://embedcanais.com/images/espn.png',
-    url: 'http://127.0.0.1:8080/hls?url=' + encodeURIComponent('https://outbound-proxy-us-east1-0-glob-usercontent-client-id-3091170514.googleapis.com.pt/docs/espn/__index.m3u8')
-  },
 
    {
     id: 'live:cazetv',
