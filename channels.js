@@ -5,7 +5,7 @@ module.exports = [
     id: 'live:espnteste',
     name: 'ESPN 2 (teste)',
     logo: 'https://i.ibb.co/7Q6m4sW/tv.png',
-    url: PROXY + encodeURIComponent('https://outbound-proxy-us-east1-0-glob-usercontent-client-id-0551243091.googleapis.com.pt/docs/espn2/__index.m3u8?sv=95&nu3zAQc9HC3GbwJq=1760697529-3guOPqGUk52jUv1dptYefgeNeqUQjN0kk6CXPLb25LA%3D')
+    url: PROXY + encodeURIComponent('https://02.user-a023453-premium-googleapis.art/espn/index.m3u8?token=07e7ef01d6ad12f182b15e2159cec0f796748471-0c45ca0dd6e8ce7e052aed258fe92abc-1760712766-1760709166&remote=no_check_ip')
   },
 
   {
