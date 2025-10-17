@@ -42,7 +42,7 @@ module.exports = [
     id: 'live:espn',
     name: 'ESPN (ao vivo)',
     logo: 'https://i.imgur.com/87qr4Et.jpeg',
-    url: PROXY + encodeURIComponent('https://02.user-a023453-premium-googleapis.art/espn/index.m3u8?token=07e7ef01d6ad12f182b15e2159cec0f796748471-0c45ca0dd6e8ce7e052aed258fe92abc-1760712766-1760709166&remote=no_check_ip')
+    url: PROXY + encodeURIComponent('https://01.user-a023453-premium-googleapis.art/espn/index.m3u8?token=a05bf58750f9a3d3cb48175cfdaee0f1858f96de-989050189df0a3d46851e951c0d49ecd-1760718288-1760714688&remote=no_check_ip')
   },
 
   {
